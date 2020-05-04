@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rafle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refle - Reset Password</title>
+
+    <!-- Bootstrap CSS v4.1.x -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontsawesome CDN -->
+    <script src="https://use.fontawesome.com/e69b0efea7.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Refle CSS -->
+    <link rel="stylesheet" href="css/refle.css">
+</head>
+
+<body class="refle-login">
+    <section class="h-100">
+        <div class="container h-100">
+            <div class="row justify-content-md-center h-100">
+                <div class="card-wrapper">
+                    <h2 class="title text-center pt-5 mb-4">
+                        Refle
+                    </h2>
+                    <div class="card fat">
+                        <div class="card-body">
+                            <div class="card-title">Reset password</div>
+                            <form method="post" class="needs-validation" novalidate>
+                                <div class="form-group">
+                                    <label for="password">New Password</label>
+                                    <div class="input-group mb-3">
+                                        <input id="new-password" type="password" class="form-control"
+                                            name="new-password" placeholder="********" required>
+                                        <div class="input-group-append">
+                                            <span class="btn btn-primary text-white input-group-text">
+                                                <i id="#new-password" class="toggle-password fa fa-eye"></i>
+                                            </span>
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            New Password is required
+                                        </div>
+                                        <div class="form-text text-muted text-info">
+                                            Make sure your password is strong and easy to remember
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-sm btn-primary btn-block">
+                                        Reset Password
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        Copyright &copy; 2020 &mdash; Your Company
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/refle.js"></script>
+</body>
+
+</html>

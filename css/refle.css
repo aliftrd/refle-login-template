@@ -1,0 +1,147 @@
+/******************************************
+ * Refle
+ *
+ * Bootstrap 4 Login Page
+ *
+ * @author          Alif Triadi Agung Wicaksono
+ * @uri 			https://www.alftri.xyz/
+ * @copyright       Copyright (c) 2018 Alif Triadi Agung Wicaksono
+ * @license         Refle is licensed under the MIT license.
+ * @github          https://github.com/aliftrd/refle-login-template
+ * @version         v1.0.0
+ *
+ * 
+ ******************************************/
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+body.refle-login {
+    background-color: #F7F9FB;
+    font-size: 14px;
+}
+
+.refle-login .title {
+    margin-top: 75px;
+    color: #A86CC1;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.refle-login .card-wrapper {
+    width: 400px;
+}
+
+.refle-login .card {
+    margin-top: 185px;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+}
+
+.refle-login .card.fat {
+    margin-top: 9px;
+    padding: 10px;
+}
+
+.refle-login .card .card-title {
+    color: #CD8DE5;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.refle-login .form-control {
+    color: #000;
+    background-color: rgba(102, 102, 102, 0.15);
+}
+
+.refle-login .text-info {
+    font-size: 12px;
+}
+
+.refle-login .forgot-password {
+    margin-top: -10px;
+    margin-bottom: 9px;
+    font-size: 12px;
+}
+
+.refle-login .btn.btn-block {
+    padding: 9px 10px;
+}
+
+.refle-login .register-section {
+    font-size: 12px;
+}
+
+.refle-login .footer {
+    margin: 41px 0;
+    color: #888;
+    text-align: center;
+}
+
+/* Link Color */
+
+a {
+    color: #CD8DE5;
+}
+
+a:hover {
+    color: #A86CC1;
+}
+
+
+/* Button Color */
+
+/* Primary Color */
+.btn-primary {
+    background-color: #CD8DE5;
+    border-color: #CD8DE5;
+}
+
+.btn-primary:hover {
+    background-color: #A86CC1;
+    border-color: #A86CC1;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #A86CC1 !important;
+    border-color: #A86CC1 !important;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 425px) {
+    .refle-login .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .refle-login .card {
+        margin-top: 135px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .refle-login .card {
+        margin-top: 135px;
+    }
+
+    .refle-login .card.fat {
+        padding: 0;
+    }
+
+
+    .refle-login .card.fat .card-body {
+        padding: 15px;
+    }
+}
