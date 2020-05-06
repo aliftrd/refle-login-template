@@ -1,7 +1,7 @@
 # Refle
 > Bootstrap 4 Login Page Template
 
-[![GitHub license](https://img.shields.io/github/license/aliftrd/refle-login-template.svg)](https://aliftrd/refle-login-template/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/aliftrd/refle-login-template.svg)](https://github.com/aliftrd/refle-login-template/blob/master/LICENSE)
 ![Author](https://img.shields.io/badge/author-%40aliftrd-red.svg)
 
 Refle is a Bootstrap 4 Login Page Snippet, you can use it as you wish and it's free for commercial or personal use.
